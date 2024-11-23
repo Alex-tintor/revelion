@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-FinalversionApplication<finalversion>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.portfolio.finalversion.FinalversionApplication",
+            "projectName": "finalversion",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-FinalversionApplication<finalversion>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.portfolio.finalversion.FinalversionApplication",
+            "projectName": "finalversion",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=60000 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=finalversion"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-UsersApplication<users>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.users_service.users.UsersApplication",
+            "projectName": "users",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-SharedApplication<shared>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.shared_data.shared.SharedApplication",
+            "projectName": "shared",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
