@@ -32,7 +32,7 @@
 	</properties>
 	<dependencies>
 		<!-- R2DBC: Base de datos reactiva -->
-		<!-- <dependency>
+		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-r2dbc</artifactId>
 		</dependency>
@@ -46,7 +46,7 @@
 			<groupId>com.microsoft.sqlserver</groupId>
 			<artifactId>mssql-jdbc</artifactId>
 			<scope>runtime</scope>
-		</dependency> -->
+		</dependency>
 
 		<!-- Seguridad y validación -->
 		<dependency>
